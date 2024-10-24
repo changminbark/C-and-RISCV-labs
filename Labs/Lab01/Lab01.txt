@@ -1,0 +1,52 @@
+Chang Min Bark
+CSCI306
+Lab01
+August 27, 2024
+
+One line mkdir command, making parent directories if needed: mkdir -p Labs/Lab01
+
+One sentence description of each of the following commands:
+
+ls: a command that lists all of the files/dirs in the current directory.
+
+pwd: a command that prints the current directory.
+
+cp: a command that copies a file to another file, which can also create a file if the target file does not exist.
+
+mv: a command that moves a file to a new directory, which can also rename the file/directory if the target file/directory does not exist.
+
+rm: a command that deletes/removes a file.
+
+mkdir: a command that makes a directory.
+
+rmdir: a command that removes a directory.
+
+touch: a command that creates a file.
+
+cat: a command that concatenates files and prints on the standard output.
+
+more: a command that filters for paging through text one screenful at a time, which prints a file one screenful at a time.
+
+less: an upgrade to more that allows for backward movement and does not require the reading of the entire input file before starting.
+
+head: a command that prints the first 10 lines of each File to standard output.
+
+tail: a command that prints the last 10 lines of each File to standard output.
+
+The command to start emacs without a GUI: emacs -nw
+
+The command to show line numbers in vim: :set number
+
+The command to show line numbers in emacs: M-x display-line-numbers-mode
+
+The command to save the content of the file in vim: :w
+
+The command to save the content of file in emacs: C-x C-s (Ctrl+x, then Ctrl+s)
+
+The command to delete the current line in vim: dd
+
+The command to delete the current line in emacs: C-a C-k OR C-S-backspace
+
+After careful consideration, I will use vim in csci306 as my text editor.
+
+

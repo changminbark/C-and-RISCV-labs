@@ -1,0 +1,17 @@
+1. ra: This register is used to store the return address when a function is called. After the function completes, the program counter (PC) will jump back to the address in the ra register. You would typically use ra when implementing function calls and returns in assembly code.
+
+2. sp: The stack pointer register keeps track of the top of the stack in memory. It is used for managing function calls, local variables, and return addresses. Whenever data is pushed or popped from the stack, the sp register is adjusted accordingly.
+
+3. Registers to hold parameters and return values for functions/procedures: These includes registers a0 to a7, which are used to pass arguments to functions and to hold return values after a function executes.
+
+4. Registers to hold temporary values that are not preserved across different function calls: These are the temporary registers t0 to t6. They can be used to store intermediate calculations or temporary values, but their contents are not guaranteed to be preserved after a function call.
+
+5. Registers to hold values that are supposed to be preserved across different function calls.: These are the saved registers s0 to s11, which must maintain their values even after a function call. When using these registers, it's important to save their current values on the stack before modifying them and restore them afterward.
+
+Task 3:
+
+li a7, 8          # sys_read
+add a0, t0, zero  # copy starting address to a1 AND can be written as mv a0, t0
+addi a1, zero, 32 # loading 32 char argument
+ecall
+

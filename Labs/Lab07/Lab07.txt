@@ -1,0 +1,15 @@
+Name: Chang Min
+CSCI306-61 Lab07
+
+creat(2): It is a system call used to create a new file or rewrite an existing one. It is similar to open with the O_CREAT and O_WRONLY flags. It returns a file descriptor, which can be used to interact with the files. Files created using creat are writable but not readable unless O_RDWR is specified.
+
+open(2): The open system call opens a file for reading, writing, or both, based on the flags passed. The three key flags are:
+1. O_RDONLY: Opens the file in read-only mode, meaning data can only be read, not modified.
+2. O_WRONLY: Opens the file in write-only mode, allowing data to be written but not read.
+3. O_RDWR: Opens the file in both read and write mode, allowing the file descriptor to be used for reading and writing data.
+
+read(2): The read system call is used to read data from a file. It requires a file descriptor (which is obtained from open or creat), a buffer to store the read data, and the number of bytes to read. It returns the number of bytes actually read.
+
+write(2): The write system call is used to write data to a file. It takes afile descriptor, a buffer containing the data to be written, and the number of bytes to write. It returns the number of bytes actually written to the file.
+
+close(2): The close system call is used to close a file descriptor once it is no longer needed. This frees up system resources and ensures that no further operations can be performed on that descriptor.

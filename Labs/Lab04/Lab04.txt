@@ -1,0 +1,6 @@
+/* Chang Min Bark
+ * CSCI 306 Lab 04
+ * Create file using make find_size
+ */
+
+ 1. We get 72 for the first struct because we have to allocate 4 bytes for he ID, 4 bytes for the enrollment, 32 bytes for the title, and 32 bytes for the prof name, which sums up to 72 bytes. We get 32 bytes for the second struct because we have to allocate 4 bytes for ID, 4 bytes for enrollment, 8 bytes for the address to title, 8 bytes for the address to prof, and 8 bytes for the address to the next struct course_node_t, which sums up to 32 bytes.

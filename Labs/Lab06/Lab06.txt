@@ -1,0 +1,13 @@
+Chang Min
+CSCI 306-61: Lab06
+
+
+1. You need the -g flag to generate debug info.
+2. You can set a breakpoint by typing "break (LINE NUMBER)".
+3. You can use the "next" command to execute the next line of code.
+4. You can use the "step" command to step into the function call.
+5. You can use the "continue" command to resume the program.
+6. You can use the "print (VAR NAME)" command to see the value of a variable.
+7. You can use the "info locals" command to print all variables and their values in the current function.
+8. You can use the "backtrace" command to display the call stack and trace how the program reached its current point.
+

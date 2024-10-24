@@ -1,0 +1,23 @@
+strcpy: Copies the null-terminated string from the source to the destination, including the terminating null byte.
+
+strncpy: Copies up to n characters from the source string to the destination, and pads with null bytes if the source is shorter than n.
+
+strcmp: Compares two strings lexicographically and returns an integer indicating their order -> 0 if they are equal, a positive number if the first string is greater, or a negative number if the second string is greater.
+
+strncmp: Compares up to n characters of two strings lexicogrpahically, returning an integer indicating their order as strcmp does.
+
+strlen: Returns the length of the null-terminated string (excluding the terminating null byte).
+
+fopen: Opens a file and returns a pointer to the FILE structure associated with the stream, with a specified mode (read, write, append).
+
+fgets: Reads a line or up to n-1 characters from a file stream into a buffer, stopping at a newline or end-of-file, and ensures the result is null-terminated.
+
+fscanf: Reads formatted input from a file stream, similar to scanf, and stores the data in the provided variable arguments according to the format string.
+
+fprintf: Writes formatted output to a file stream, similar to printf, but outputs the result to a specified file.
+
+fseek: Sets the file position indicator for a stream to a specific offset relative to the beginning, current position, or end of the file.
+
+fclose: Closes a file stream and releases any resources associated with it.
+
+
